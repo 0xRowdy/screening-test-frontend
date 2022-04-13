@@ -6,24 +6,28 @@ const tasks: Tasks = {
     name: 'task-1',
     description: 'Blah blah blah',
     created: new Date(2 / 21 / 21).toLocaleDateString('en-US'),
+    status: 0,
   },
   'task-2': {
     id: 'task-2',
     name: 'task-2',
     description: 'MEMEME blah',
     created: new Date(2 / 10 / 2022).toLocaleDateString('en-US'),
+    status: 0,
   },
   'task-3': {
     id: 'task-3',
     name: 'task-3',
     description: 'WAH WAH WAH blah',
     created: new Date(1 / 13 / 2022).toLocaleDateString('en-US'),
+    status: 1,
   },
   'task-4': {
     id: 'task-4',
     name: 'task-4',
     description: 'CHA CAH CAH blah blah',
     created: new Date(3 / 23 / 2021).toLocaleDateString('en-US'),
+    status: 1,
   },
 };
 
